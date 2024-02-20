@@ -17,6 +17,7 @@ public class UserService {
     private UserRepository repo;
 
     public List<User> findAll() {
+
         return repo.findAll();
     }
 
@@ -26,6 +27,7 @@ public class UserService {
     }
 
     public User insert(User obj) {
+
         return repo.insert(obj);
     }
 
