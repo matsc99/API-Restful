@@ -1,5 +1,6 @@
 package com.mateuscruz.mongodb.resources;
 
+import com.mateuscruz.mongodb.domain.Post;
 import com.mateuscruz.mongodb.domain.User;
 import com.mateuscruz.mongodb.dto.UserDTO;
 import com.mateuscruz.mongodb.services.UserService;
@@ -56,5 +57,11 @@ public class UserResource {
         obj.setId(id);
         obj = service.update(obj);
         return ResponseEntity.noContent().build();
+    }
+
+    @GetMapping(value = "/{id}/posts")
+    public ResponseEntity<List<Post>> findPosts(@PathVariable String id) {
+        User obj = service.findById(id);
+        return ResponseEntity.ok().body(obj.getPosts());
     }
 }
