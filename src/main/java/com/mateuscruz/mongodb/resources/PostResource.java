@@ -1,4 +1,4 @@
-package com.mateuscruz.mongodb.resources.exception;
+package com.mateuscruz.mongodb.resources;
 
 import com.mateuscruz.mongodb.domain.Post;
 import com.mateuscruz.mongodb.services.PostService;
