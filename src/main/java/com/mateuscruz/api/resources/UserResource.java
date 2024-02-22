@@ -1,17 +1,15 @@
-package com.mateuscruz.mongodb.resources;
+package com.mateuscruz.api.resources;
 
-import com.mateuscruz.mongodb.domain.Post;
-import com.mateuscruz.mongodb.domain.User;
-import com.mateuscruz.mongodb.dto.UserDTO;
-import com.mateuscruz.mongodb.services.UserService;
+import com.mateuscruz.api.domain.Post;
+import com.mateuscruz.api.domain.User;
+import com.mateuscruz.api.dto.UserDTO;
+import com.mateuscruz.api.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.net.URI;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;

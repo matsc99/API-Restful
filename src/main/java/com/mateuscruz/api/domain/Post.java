@@ -1,7 +1,7 @@
-package com.mateuscruz.mongodb.domain;
+package com.mateuscruz.api.domain;
 
-import com.mateuscruz.mongodb.dto.AuthorDTO;
-import com.mateuscruz.mongodb.dto.CommentDTO;
+import com.mateuscruz.api.dto.AuthorDTO;
+import com.mateuscruz.api.dto.CommentDTO;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 

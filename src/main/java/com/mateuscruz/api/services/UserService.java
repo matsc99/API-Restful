@@ -1,9 +1,9 @@
-package com.mateuscruz.mongodb.services;
+package com.mateuscruz.api.services;
 
-import com.mateuscruz.mongodb.domain.User;
-import com.mateuscruz.mongodb.dto.UserDTO;
-import com.mateuscruz.mongodb.repository.UserRepository;
-import com.mateuscruz.mongodb.services.exception.ObjectNotFoundException;
+import com.mateuscruz.api.domain.User;
+import com.mateuscruz.api.dto.UserDTO;
+import com.mateuscruz.api.repository.UserRepository;
+import com.mateuscruz.api.services.exception.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

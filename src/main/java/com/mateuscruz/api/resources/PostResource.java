@@ -1,8 +1,8 @@
-package com.mateuscruz.mongodb.resources;
+package com.mateuscruz.api.resources;
 
-import com.mateuscruz.mongodb.domain.Post;
-import com.mateuscruz.mongodb.resources.util.URL;
-import com.mateuscruz.mongodb.services.PostService;
+import com.mateuscruz.api.domain.Post;
+import com.mateuscruz.api.resources.util.URL;
+import com.mateuscruz.api.services.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

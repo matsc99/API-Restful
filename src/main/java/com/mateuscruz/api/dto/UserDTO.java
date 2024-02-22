@@ -1,6 +1,6 @@
-package com.mateuscruz.mongodb.dto;
+package com.mateuscruz.api.dto;
 
-import com.mateuscruz.mongodb.domain.User;
+import com.mateuscruz.api.domain.User;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.mateuscruz.mongodb.resources.exception;
+package com.mateuscruz.api.resources.exception;
 
 import java.io.Serializable;
 

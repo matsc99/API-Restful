@@ -1,11 +1,11 @@
-package com.mateuscruz.mongodb.config;
+package com.mateuscruz.api.config;
 
-import com.mateuscruz.mongodb.domain.Post;
-import com.mateuscruz.mongodb.domain.User;
-import com.mateuscruz.mongodb.dto.AuthorDTO;
-import com.mateuscruz.mongodb.dto.CommentDTO;
-import com.mateuscruz.mongodb.repository.PostRepository;
-import com.mateuscruz.mongodb.repository.UserRepository;
+import com.mateuscruz.api.domain.Post;
+import com.mateuscruz.api.domain.User;
+import com.mateuscruz.api.dto.AuthorDTO;
+import com.mateuscruz.api.dto.CommentDTO;
+import com.mateuscruz.api.repository.PostRepository;
+import com.mateuscruz.api.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;

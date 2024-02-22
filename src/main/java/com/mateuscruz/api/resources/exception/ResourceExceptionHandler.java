@@ -1,6 +1,6 @@
-package com.mateuscruz.mongodb.resources.exception;
+package com.mateuscruz.api.resources.exception;
 
-import com.mateuscruz.mongodb.services.exception.ObjectNotFoundException;
+import com.mateuscruz.api.services.exception.ObjectNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

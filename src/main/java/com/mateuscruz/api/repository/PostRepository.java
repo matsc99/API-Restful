@@ -1,6 +1,6 @@
-package com.mateuscruz.mongodb.repository;
+package com.mateuscruz.api.repository;
 
-import com.mateuscruz.mongodb.domain.Post;
+import com.mateuscruz.api.domain.Post;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Repository;

@@ -1,4 +1,4 @@
-package com.mateuscruz.mongodb.domain;
+package com.mateuscruz.api.domain;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;

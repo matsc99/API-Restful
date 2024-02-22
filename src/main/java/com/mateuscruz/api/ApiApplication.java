@@ -1,13 +1,13 @@
-package com.mateuscruz.mongodb;
+package com.mateuscruz.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MongodbApplication {
+public class ApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MongodbApplication.class, args);
+		SpringApplication.run(ApiApplication.class, args);
 	}
 
 }

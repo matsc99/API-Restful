@@ -1,4 +1,4 @@
-package com.mateuscruz.mongodb.resources.util;
+package com.mateuscruz.api.resources.util;
 
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;

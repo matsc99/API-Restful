@@ -1,4 +1,4 @@
-package com.mateuscruz.mongodb.dto;
+package com.mateuscruz.api.dto;
 
 import java.io.Serializable;
 import java.util.Date;

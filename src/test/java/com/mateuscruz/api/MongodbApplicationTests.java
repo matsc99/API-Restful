@@ -1,4 +1,4 @@
-package com.mateuscruz.mongodb;
+package com.mateuscruz.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
